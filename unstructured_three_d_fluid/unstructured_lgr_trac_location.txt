@@ -1,0 +1,79 @@
+$ rrgrep unstructured_lgr_trac .
+./tlgrtrac14_notalign_short_Alsc2v22.sh:3:PROGRAM="unstructured_lgr_trac"
+./tA04_dtvary_notalign_short_Alsc2v22.sh:3:PROGRAM="unstructured_lgr_trac"
+./tlgrtrac04_notalign_Exact.sh:3:PROGRAM="unstructured_lgr_trac"
+./tlgrtrac14_notalign_short_Alsc2v22_outpres.sh:3:PROGRAM="unstructured_lgr_trac"
+./tA12_notalign_short_Exact.sh:3:PROGRAM="unstructured_lgr_trac"
+./tlgrtrac17_dtvary_notalign_short_Alsc1v22.sh:3:PROGRAM="unstructured_lgr_trac"
+./tlgrtrac18_dtvary_notalign_short_Alsc2v22.sh:3:PROGRAM="unstructured_lgr_trac"
+./tlgrtrac05_notalign_Elsc.sh:3:PROGRAM="unstructured_lgr_trac"
+./tlgrtrac06_notalign_Alsc.sh:3:PROGRAM="unstructured_lgr_trac"
+./run_lgrtrac.sh:4:PROG="unstructured_lgr_trac"
+./tlgrtrac12_notalign_short_Alsc.sh:3:PROGRAM="unstructured_lgr_trac"
+./tA07_dtvary_notalign_short_Alsc1v22.sh:3:PROGRAM="unstructured_lgr_trac"
+./tlgrtrac10_notalign_short_Exact.sh:3:PROGRAM="unstructured_lgr_trac"
+./tA14_notalign_short_Alsc.sh:3:PROGRAM="unstructured_lgr_trac"
+./tA03_dtvary_notalign_short_Alsc1v22.sh:3:PROGRAM="unstructured_lgr_trac"
+./tA08_dtvary_notalign_short_Alsc2v22.sh:3:PROGRAM="unstructured_lgr_trac"
+./.deps/unstructured_lgr_trac.Po:1:unstructured_lgr_trac.o: unstructured_lgr_trac.cc \
+./tlgrtrac11_notalign_short_Elsc.sh:3:PROGRAM="unstructured_lgr_trac"
+./tA13_notalign_short_Elsc.sh:3:PROGRAM="unstructured_lgr_trac"
+
+
+
+
+23:28:36[ray@ray-ThinkPad-T430: +1] ~/trunk/user_drivers/unstructured_three_d_fluid 
+$ rrgrep unstructured_lgr_pressureimposed .
+./t17_lgrP_brick_amglsctime.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+./time08_lgr_bricknonalign_Alsc.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+./t14_lgrP_brick_exactlsc.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+./run_lgr_pressureimposed.sh:4:PROG="unstructured_lgr_pressureimposed"
+./time04_lgr_brick_Elsc.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+./Makefile:93:	unstructured_lgr_pressureimposed$(EXEEXT)
+./Makefile:107:am_unstructured_lgr_pressureimposed_OBJECTS =  \
+./Makefile:108:	unstructured_lgr_pressureimposed.$(OBJEXT)
+./Makefile:109:unstructured_lgr_pressureimposed_OBJECTS =  \
+./Makefile:110:	$(am_unstructured_lgr_pressureimposed_OBJECTS)
+./Makefile:112:unstructured_lgr_pressureimposed_DEPENDENCIES = $(am__DEPENDENCIES_1) \
+./Makefile:165:SOURCES = $(unstructured_lgr_pressureimposed_SOURCES) \
+./Makefile:169:DIST_SOURCES = $(unstructured_lgr_pressureimposed_SOURCES) \
+./Makefile:391:unstructured_lgr_pressureimposed_SOURCES = unstructured_lgr_pressureimposed.cc
+./Makefile:392:unstructured_lgr_pressureimposed_LDADD = -L${exec_prefix}/lib -lnavier_stokes -lgeneric $(EXTERNAL_LIBS) $(FLIBS)
+./Makefile:440:unstructured_lgr_pressureimposed$(EXEEXT): $(unstructured_lgr_pressureimposed_OBJECTS) $(unstructured_lgr_pressureimposed_DEPENDENCIES) $(EXTRA_unstructured_lgr_pressureimposed_DEPENDENCIES) 
+./Makefile:441:	@rm -f unstructured_lgr_pressureimposed$(EXEEXT)
+./Makefile:442:	$(AM_V_CXXLD)$(CXXLINK) $(unstructured_lgr_pressureimposed_OBJECTS) $(unstructured_lgr_pressureimposed_LDADD) $(LIBS)
+./Makefile:462:include ./$(DEPDIR)/unstructured_lgr_pressureimposed.Po
+./Makefile.in:93:	unstructured_lgr_pressureimposed$(EXEEXT)
+./Makefile.in:107:am_unstructured_lgr_pressureimposed_OBJECTS =  \
+./Makefile.in:108:	unstructured_lgr_pressureimposed.$(OBJEXT)
+./Makefile.in:109:unstructured_lgr_pressureimposed_OBJECTS =  \
+./Makefile.in:110:	$(am_unstructured_lgr_pressureimposed_OBJECTS)
+./Makefile.in:112:unstructured_lgr_pressureimposed_DEPENDENCIES = $(am__DEPENDENCIES_1) \
+./Makefile.in:165:SOURCES = $(unstructured_lgr_pressureimposed_SOURCES) \
+./Makefile.in:169:DIST_SOURCES = $(unstructured_lgr_pressureimposed_SOURCES) \
+./Makefile.in:391:unstructured_lgr_pressureimposed_SOURCES = unstructured_lgr_pressureimposed.cc
+./Makefile.in:392:unstructured_lgr_pressureimposed_LDADD = -L@libdir@ -lnavier_stokes -lgeneric $(EXTERNAL_LIBS) $(FLIBS)
+./Makefile.in:440:unstructured_lgr_pressureimposed$(EXEEXT): $(unstructured_lgr_pressureimposed_OBJECTS) $(unstructured_lgr_pressureimposed_DEPENDENCIES) $(EXTRA_unstructured_lgr_pressureimposed_DEPENDENCIES) 
+./Makefile.in:441:	@rm -f unstructured_lgr_pressureimposed$(EXEEXT)
+./Makefile.in:442:	$(AM_V_CXXLD)$(CXXLINK) $(unstructured_lgr_pressureimposed_OBJECTS) $(unstructured_lgr_pressureimposed_LDADD) $(LIBS)
+./Makefile.in:462:@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/unstructured_lgr_pressureimposed.Po@am__quote@
+./time05_lgr_brick_Alsc.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+./time07_lgr_bricknonalign_Elsc.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+./time03_lgr_brick_Exact.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+./t11_lgrP_tet_exact.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+./t18_lgrP_bricknonalign_amglsctime.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+./t15_lgrP_brick_amglsc.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+./dt02_lgr_brick_Alsc.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+./dt03_lgr_bricknonalign_Alsc.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+./Makefile.am:5:unstructured_lgr_pressureimposed
+./Makefile.am:24:unstructured_lgr_pressureimposed_SOURCES = unstructured_lgr_pressureimposed.cc
+./Makefile.am:26:unstructured_lgr_pressureimposed_LDADD = -L@libdir@ -lnavier_stokes -lgeneric $(EXTERNAL_LIBS) $(FLIBS)
+./.deps/unstructured_lgr_pressureimposed.Po:1:unstructured_lgr_pressureimposed.o: unstructured_lgr_pressureimposed.cc \
+./t13_lgrP_brick_exact.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+./t19_lgrP_bricknonalign_amglsctime_no_tangdirection.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+./t12_lgrP_tet_exactlsc.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+./t20_lgrP_bricknonalign_fixed_amg_fixedtime.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+./time06_lgr_bricknonalign_Exact.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+./t16_lgrP_bricknonalign_exactlsc.sh:3:PROGRAM="unstructured_lgr_pressureimposed"
+
+

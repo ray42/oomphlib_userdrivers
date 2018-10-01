@@ -1,0 +1,14 @@
+commit 8c9996568e79b3e13e16cf25fdab8be2d5d98696
+Author: mheil <mheil@595e1d82-adf1-4282-bac7-b6073fa2ca8e>
+Date:   Thu Sep 20 12:53:04 2018 +0000
+
+    David's correction to various triangle based integration schemes
+    which had a factor of 1/2 missing in the weights.... Also moved
+    instantiations of some MG fcts (which used to live in
+    src/generic/geometric_multigrid.h and were therefore potentially
+    built repeatedly, causing confusion at linking time, into a separate
+    cc file.
+    
+    
+    
+    git-svn-id: svn+ssh://maths1/home/svn-oomphlib/public/trunk@1321 595e1d82-adf1-4282-bac7-b6073fa2ca8e

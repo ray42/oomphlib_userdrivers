@@ -1,0 +1,173 @@
+Oomph-lib communicator is a duplicate of MPI_COMM_WORLD
+
+Processor 0:   Specified (and recognised) command line flags:
+Processor 0:   ----------------------------------------------
+Processor 0:   --use_amg_for_f
+Processor 0:   --use_amg_for_p
+Processor 0:   --use_brick
+Processor 0:   --use_iterative_lin_solver
+Processor 0:   --use_lsc
+Processor 0:   --use_stress_div
+Processor 0:   --use_trilinos
+Processor 0:   --re 100
+Processor 0:   --doc_num 0
+Processor 0:   --tetgen_num 1
+Processor 0:   --doc_dir RESLT
+Processor 0:   --doc_label fluid_soln
+
+Processor 0:   Using stress divergence viscous term
+Number of equations: 20259
+Processor 0:   Initial Maximum residuals 0.111104
+Processor 0:   Time to generate Jacobian [sec]    : 21.4272
+Processor 0:   Time to build epetra matrix [sec] : 0.0447121
+Processor 0:   Time to build epetra matrix [sec] : 0.46196
+Processor 0:   Time to build epetra matrix [sec] : 0.0528769
+Processor 0:   Setting up BoomerAMG, Processor 0:   time for setup [s] : 0.0195639
+Processor 0:   Setting up BoomerAMG, Processor 0:   time for setup [s] : 0.83385
+Processor 0:   Time for preconditioner setup [sec]: 6.48379
+Processor 0:   Time to generate Trilinos matrix      : 0.811751s
+Processor 0:   Linear solver iterations    : 141
+Processor 0:   Final Relative Residual Norm: 1.31819e-06
+Processor 0:   Time for trilinos solve itself                 : 47.9905s
+Processor 0:   Time for complete trilinos solve                  : 55.3545s
+
+Processor 0:   Time for linear solver ( ndof = 20259 ) [sec]: 76.7818
+
+Processor 0:   Newton Step 1: Maximum residuals 1.61008e-05
+Processor 0:   Time to generate Jacobian [sec]    : 21.3817
+Processor 0:   Time to build epetra matrix [sec] : 0.042253
+Processor 0:   Time to build epetra matrix [sec] : 0.45581
+Processor 0:   Time to build epetra matrix [sec] : 0.0508652
+Processor 0:   Setting up BoomerAMG, Processor 0:   time for setup [s] : 0.0174241
+Processor 0:   Setting up BoomerAMG, Processor 0:   time for setup [s] : 0.801104
+Processor 0:   Time for preconditioner setup [sec]: 6.39958
+Processor 0:   Time to generate Trilinos matrix      : 0.773377s
+Processor 0:   Linear solver iterations    : 159
+Processor 0:   Final Relative Residual Norm: 2.38414e-10
+Processor 0:   Time for trilinos solve itself                 : 54.5565s
+Processor 0:   Time for complete trilinos solve                  : 61.794s
+
+Processor 0:   Time for linear solver ( ndof = 20259 ) [sec]: 83.1759
+
+Processor 0:   Newton Step 2: Maximum residuals 2.33453e-10
+
+Processor 0:   Total time for linear solver (ndof=20259) [sec]: 159.958
+Processor 0:   Total time for Newton solver (ndof=20259) [sec]: 163.594
+Processor 0:   Time outside linear solver        : 2.22264 %
+
+Processor 0:   RAYRAY num Newton iteration: 2
+Processor 0:   RAYRAY num lin. iterations: 141
+Processor 0:   RAYRAY num lin. iterations: 159
+Oomph-lib communicator is a duplicate of MPI_COMM_WORLD
+
+Processor 0:   Specified (and recognised) command line flags:
+Processor 0:   ----------------------------------------------
+Processor 0:   --use_amg_for_f
+Processor 0:   --use_amg_for_p
+Processor 0:   --use_brick
+Processor 0:   --use_iterative_lin_solver
+Processor 0:   --use_lsc
+Processor 0:   --use_stress_div
+Processor 0:   --use_trilinos
+Processor 0:   --re 100
+Processor 0:   --doc_num 0
+Processor 0:   --tetgen_num 2
+Processor 0:   --doc_dir RESLT
+Processor 0:   --doc_label fluid_soln
+
+Processor 0:   Using stress divergence viscous term
+Number of equations: 21019
+Processor 0:   Initial Maximum residuals 0.0370695
+Processor 0:   Time to generate Jacobian [sec]    : 22.3639
+Processor 0:   Time to build epetra matrix [sec] : 0.0452969
+Processor 0:   Time to build epetra matrix [sec] : 0.481981
+Processor 0:   Time to build epetra matrix [sec] : 0.0527229
+Processor 0:   Setting up BoomerAMG, Processor 0:   time for setup [s] : 0.0182509
+Processor 0:   Setting up BoomerAMG, Processor 0:   time for setup [s] : 0.855276
+Processor 0:   Time for preconditioner setup [sec]: 6.70638
+Processor 0:   Time to generate Trilinos matrix      : 0.808643s
+Processor 0:   Linear solver iterations    : 137
+Processor 0:   Final Relative Residual Norm: 4.13039e-07
+Processor 0:   Time for trilinos solve itself                 : 49.7299s
+Processor 0:   Time for complete trilinos solve                  : 57.3127s
+
+Processor 0:   Time for linear solver ( ndof = 21019 ) [sec]: 79.6768
+
+Processor 0:   Newton Step 1: Maximum residuals 1.61187e-05
+Processor 0:   Time to generate Jacobian [sec]    : 22.3815
+Processor 0:   Time to build epetra matrix [sec] : 0.0451381
+Processor 0:   Time to build epetra matrix [sec] : 0.483352
+Processor 0:   Time to build epetra matrix [sec] : 0.05318
+Processor 0:   Setting up BoomerAMG, Processor 0:   time for setup [s] : 0.0180311
+Processor 0:   Setting up BoomerAMG, Processor 0:   time for setup [s] : 0.85674
+Processor 0:   Time for preconditioner setup [sec]: 6.93926
+Processor 0:   Time to generate Trilinos matrix      : 0.796041s
+Processor 0:   Linear solver iterations    : 147
+Processor 0:   Final Relative Residual Norm: 2.22317e-10
+Processor 0:   Time for trilinos solve itself                 : 52.6903s
+Processor 0:   Time for complete trilinos solve                  : 60.4919s
+
+Processor 0:   Time for linear solver ( ndof = 21019 ) [sec]: 82.8735
+
+Processor 0:   Newton Step 2: Maximum residuals 2.3623e-10
+
+Processor 0:   Total time for linear solver (ndof=21019) [sec]: 162.55
+Processor 0:   Total time for Newton solver (ndof=21019) [sec]: 166.325
+Processor 0:   Time outside linear solver        : 2.26953 %
+
+Processor 0:   RAYRAY num Newton iteration: 2
+Processor 0:   RAYRAY num lin. iterations: 137
+Processor 0:   RAYRAY num lin. iterations: 147
+Oomph-lib communicator is a duplicate of MPI_COMM_WORLD
+
+Processor 0:   Specified (and recognised) command line flags:
+Processor 0:   ----------------------------------------------
+Processor 0:   --use_amg_for_f
+Processor 0:   --use_amg_for_p
+Processor 0:   --use_brick
+Processor 0:   --use_iterative_lin_solver
+Processor 0:   --use_lsc
+Processor 0:   --use_stress_div
+Processor 0:   --use_trilinos
+Processor 0:   --re 100
+Processor 0:   --doc_num 0
+Processor 0:   --tetgen_num 3
+Processor 0:   --doc_dir RESLT
+Processor 0:   --doc_label fluid_soln
+
+Processor 0:   Using stress divergence viscous term
+Number of equations: 323109
+Processor 0:   Initial Maximum residuals 0.0104118
+Processor 0:   Time to generate Jacobian [sec]    : 447.024
+Processor 0:   Time to build epetra matrix [sec] : 0.760085
+Processor 0:   Time to build epetra matrix [sec] : 9.30536
+Processor 0:   Time to build epetra matrix [sec] : 0.887751
+Processor 0:   Setting up BoomerAMG, Processor 0:   time for setup [s] : 0.609499
+Processor 0:   Setting up BoomerAMG, Processor 0:   time for setup [s] : 24.1067
+Processor 0:   Time for preconditioner setup [sec]: 134.471
+Processor 0:   Time to generate Trilinos matrix      : 15.6238s
+
+	Solver:			gmres
+	number of iterations:	200
+
+	Recursive residual =  2.5388e-06
+
+	Calculated Norms				Requested Norm
+	--------------------------------------------	--------------
+
+	||r||_2 / ||r0||_2:		2.086124e-05	1.000000e-06
+Processor 0:   Linear solver iterations    : 200
+Processor 0:   Final Relative Residual Norm: 2.53884e-06
+Processor 0:   Time for trilinos solve itself                 : 1851.16s
+Processor 0:   Time for complete trilinos solve                  : 2002.49s
+
+Processor 0:   Time for linear solver ( ndof = 323109 ) [sec]: 2449.51
+
+Processor 0:   Newton Step 1: Maximum residuals 7.56918e-07
+
+Processor 0:   Total time for linear solver (ndof=323109) [sec]: 2449.51
+Processor 0:   Total time for Newton solver (ndof=323109) [sec]: 2487.83
+Processor 0:   Time outside linear solver        : 1.54031 %
+
+Processor 0:   RAYRAY num Newton iteration: 1
+Processor 0:   RAYRAY num lin. iterations: 200

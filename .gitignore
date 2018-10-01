@@ -1,0 +1,39 @@
+# Executables
+lagrange_square/sq_lgr
+lagrange_bifurcation/unstructured_three_d_fluid
+lagrange_step/step_po
+lagrange_annular_wedge/two_d_annular_wedge
+time_stepping/rayleigh_channel
+time_stepping/rayleigh_traction_channel
+time_stepping/sq_lgr
+time_stepping/three_d_fp
+time_stepping/unstructured_three_d_fluid
+time_stepping/two_d_fp
+lagrange_cube/cube
+unstructured_three_d_fluid/unstructured_three_d_fluid
+unstructured_three_d_fluid/unstructured_original
+unstructured_three_d_fluid/unstructured_lgr_pressureimposed
+unstructured_three_d_fluid/unstructured_lgr_trac
+
+poisson_three_d/poisson_3d
+poisson_three_d/test_5_weak_scaling_using_BPF/poisson_3d
+	
+code_for_thesis/two_d_ns
+code_for_thesis/driven_cavity
+
+
+tags
+
+# Validate file
+Validate
+
+# Make files
+Makefile
+Makefile.in
+.deps
+*.swp
+
+*.o
+
+validation.log
+validate.output
